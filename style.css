@@ -584,6 +584,169 @@ a:hover {
   transform: translateY(-1px); /* Slight lifting movement on cursor hover */
 }
 
+.affiliate-disclosure {
+  text-align: center;
+  padding-top: 2rem;
+  margin-bottom: -2rem;
+}
+
+.review-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+ color: white;
+ text-shadow: 
+        0 0 5px #5A7CFF, 
+        0 0 15px #5A7CFF;
+}
+
+.keyboard-review-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.overview-box {
+  background: #111827;
+  border: 1px solid rgba(90,124,255,0.4);
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(90,124,255,0.15);
+  text-align: center;
+  width: 70%;
+  border-width: 2px;
+}
+
+.feature-highlight {
+  background: #111827;
+  border: 1px solid rgba(90,124,255,0.4);
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(90,124,255,0.15);
+  text-align: center;
+  width: 70%;
+  border-width: 2px;
+}
+
+.specs-breakdown {
+  background: #111827;
+  border: 1px solid rgba(90,124,255,0.4);
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(90,124,255,0.15);
+  text-align: center;
+  width: 70%;
+  border-width: 2px;
+}
+
+.specs-breakdown li {
+  list-style: none;
+}
+
+.community-verdict {
+  background: #111827;
+  border: 1px solid rgba(90,124,255,0.4);
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(90,124,255,0.15);
+  text-align: center;
+  width: 70%;
+  border-width: 2px;
+}
+
+.keyboard-review-grid h3 {
+  font-size: 1.75rem;
+  background: linear-gradient(90deg, #5A7CFF, #ff4fd8);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.review-hero-image {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(90,124,255,0.3);
+  }
+
+.review-header p {
+  letter-spacing: .1em;
+  margin-top: 2rem;
+}
+
+.breadcrumbs-keyboard {
+  display: flex;
+  justify-content: center;   /* center horizontally */
+  align-items: center;
+  gap: 0.5rem;
+  margin: 2rem auto;         /* move it up/down */
+  width: 100%;
+  text-align: center;
+}
+
+.keyboard-review-grid .pros {
+  background: #111827;
+  border: 1px solid rgba(90,124,255,0.4);
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(90,124,255,0.15);
+  border-width: 2px;
+  margin-bottom: 4rem;
+}
+
+.pros h2 {
+  font-size: 2rem;
+  background: linear-gradient(90deg, #5A7CFF, #ff4fd8);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+/* Update your classes to look like this: */
+.pros, .cons { 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; /* Pulls the entire list into the horizontal center of the box */
+  padding: 0;
+  margin: 15px 0;
+} 
+
+.pros li, .cons li { 
+  text-align: left; /* Keeps your crisp, straight left margins exactly as they are now */
+  width: 100%;       
+  max-width: 260px;  /* Limits the width so the text centers perfectly under the headings */
+  margin: 8px 0;     /* Gives the individual lines cleaner breathing room */
+  color: #cbd5e1;    /* Softens the text color to match your top cards */
+}
+
+.specs-table {
+  background: #111827;
+  border: 1px solid rgba(90,124,255,0.4);
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(90,124,255,0.15);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 70%;
+   margin: 0 auto;
+   border-width: 2px;
+}
+
+.specs-table td,
+.specs-table th {
+  padding: 20px 80px; /* left/right space */
+  text-align: center;
+}
+
 
 /* Mobile Styles */
 @media (max-width: 500px) {
