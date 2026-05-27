@@ -403,7 +403,7 @@ body {
 }
 
 a {
-  color: white;
+  color: #5A7CFF;
   text-decoration: none;
   transition: color 0.2s ease-in-out;
   letter-spacing: 0.04em;
@@ -502,6 +502,88 @@ a:hover {
   color: white;
   cursor: pointer;
 }
+
+.hero h2 {
+  font-size: 1.75rem;
+}
+
+.aeo-intro h1 {
+  font-size: 3rem;
+}
+
+.aeo-intro p {
+  letter-spacing: 0.04em;
+}
+
+.aeo-list {
+   list-style: none;
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+}
+
+.aeo-list li {
+  color: #cbd5e1;
+}
+
+/* Table Layout Setup */
+.comparison-table {
+  width: 100%;
+  max-width: 900px;
+  margin: 30px auto;
+  border-collapse: collapse; /* Removes ugly double borders */
+  font-family: sans-serif;
+  color: #ffffff;
+  background-color: #0b132#120e259; /* Deep dark tech blue background */
+  border-radius: 8px;
+  overflow: hidden; /* Keeps round corners sharp */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Header Specific Styles */
+.comparison-table th {
+  background-color: #1d1838; /* Slightly lighter accent blue for headers */
+  padding: 16px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+  border-bottom: 2px solid #38bdf8; /* Vibrant electric blue visual anchor line */
+}
+
+/* Data Row Styles */
+.comparison-table td {
+  padding: 16px;
+  border-bottom: 1px solid #1e293b; /* Subtle separator borders */
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+/* Clean Row Stripping for Easy Scannability */
+.comparison-table tr:nth-child(even) {
+  background-color: #17122e; /* Alternating row colors make columns effortless to track */
+}
+
+/* High-Converting Action Buttons */
+.table-btn {
+  display: inline-block;
+  background: linear-gradient(135deg, #a855f7, #ec4899); /* Match your main vibrant accent color */
+  color: white; /* Dark bold text inside button */
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.85rem;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Hover Animation Effect */
+.table-btn:hover {
+  background-color: #60a5fa;
+  transform: translateY(-1px); /* Slight lifting movement on cursor hover */
+}
+
 
 /* Mobile Styles */
 @media (max-width: 500px) {
