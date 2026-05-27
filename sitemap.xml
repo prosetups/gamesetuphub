@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- HOME -->
+  <url>
+    <loc>https://gamesetuphub.com/</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <!-- CATEGORY PAGES -->
+  <url>
+    <loc>https://gamesetuphub.com/desks/</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://gamesetuphub.com/wallmounts/</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://gamesetuphub.com/accessories/</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://gamesetuphub.com/pcs/</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://gamesetuphub.com/decor/</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://gamesetuphub.com/setups/</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <!-- LEGAL PAGES -->
+  <url>
+    <loc>https://gamesetuphub.com/privacy/</loc>
+    <changefreq>yearly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://gamesetuphub.com/terms/</loc>
+    <changefreq>yearly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://gamesetuphub.com/affiliate-disclosure/</loc>
+    <changefreq>yearly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://gamesetuphub.com/contact/</loc>
+    <changefreq>yearly</changefreq>
+  </url>
+
+</urlset>

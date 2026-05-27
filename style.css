@@ -1,0 +1,542 @@
+/* -----------------------------------
+   GLOBAL — RGB Background Glow
+----------------------------------- */
+body {
+  background: radial-gradient(circle at top, rgba(90,124,255,0.15), transparent 60%),
+              radial-gradient(circle at bottom right, rgba(255,79,216,0.12), transparent 70%),
+              #0a0d16;
+  color: #e6e6e6;
+  font-family: system-ui, sans-serif;
+}
+
+.page-wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  text-align: center;
+}
+
+/* -----------------------------------
+   STICKY HEADER
+----------------------------------- */
+.main-header {
+  background: #0f1528;
+  border-bottom: 1px solid #1b2238;
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  box-shadow: 0 0 20px rgba(90,124,255,0.3);
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.nav-right {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-link {
+  color: #c7d0ea;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.25s ease;
+}
+
+.nav-link:hover {
+  color: white;
+  text-shadow: 
+        0 0 5px #5A7CFF, 
+        0 0 15px #5A7CFF;
+}
+
+/* -----------------------------------
+   HERO — Background + Blur + Neon Text
+----------------------------------- */
+.hero {
+  background: url('images/hero-bg.jpg') center/cover no-repeat;
+  padding: 6rem 2rem;
+  border-radius: 16px;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 3rem;
+  border: 1px solid rgba(90, 124, 255, 0.35);
+  border-color: #5A7CFF; /* neon blue */
+  box-shadow: 0 0 6px rgba(90, 124, 255, 0.25);
+  border-width: 2px;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(10, 13, 22, 0.7);
+  backdrop-filter: blur(4px);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  background: linear-gradient(90deg, #5A7CFF, #ff4fd8);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.subtitle {
+  color: #8fa3ff;
+  margin-bottom: 1.5rem;
+}
+
+/* -----------------------------------
+   RGB GLOW BUTTON
+----------------------------------- */
+.btn-glow {
+  padding: 0.9rem 1.6rem;
+  background: linear-gradient(90deg, #5A7CFF, #ff4fd8);
+  color: #ffffff;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 700;
+  box-shadow: 0 0 18px rgba(90,124,255,0.8),
+              0 0 28px rgba(255,79,216,0.5);
+  transition: 0.25s ease;
+}
+
+.btn-glow:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 25px rgba(90,124,255,1),
+              0 0 40px rgba(255,79,216,0.8);
+}
+
+/* -----------------------------------
+   SECTION DIVIDER
+----------------------------------- */
+.section-divider {
+  height: 2px;
+  width: 80%;
+  margin: 3rem auto;
+  background: linear-gradient(90deg, #5A7CFF, #ff4fd8);
+  opacity: 0.4;
+  border-radius: 2px;
+}
+
+/* -----------------------------------
+   CATEGORY GRID — Icons + Glow
+----------------------------------- */
+.category-grid {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  background: linear-gradient(90deg, #5A7CFF, #ff4fd8);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.cat-card {
+  background: #111827;
+  border: 1px solid rgba(90,124,255,0.4);
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(90,124,255,0.15);
+  transition: 0.25s ease;
+}
+
+.cat-card:hover {
+  border-color: #5A7CFF;
+  box-shadow: 0 0 25px rgba(90,124,255,0.4),
+              0 0 40px rgba(255,79,216,0.25);
+  transform: translateY(-4px);
+}
+
+.cat-icon {
+  width: 60px;
+  margin-bottom: 1rem;
+  opacity: 0.9;
+}
+
+/* Outline Button */
+.btn-outline {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.7rem 1.2rem;
+  border: 2px solid #5A7CFF;
+  color: #5A7CFF;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 700;
+  transition: 0.25s ease;
+}
+
+.btn-outline:hover {
+  background: #5A7CFF;
+  color: #ffffff;
+  box-shadow: 0 0 15px rgba(90,124,255,0.8);
+}
+
+/* -----------------------------------
+   FEATURED PRODUCTS — Glow Cards
+----------------------------------- */
+.featured-section {
+  margin-top: 6rem;
+}
+
+.featured-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.featured-card {
+  background: #151b2c;
+  border: 1px solid rgba(155,92,255,0.4);
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(155,92,255,0.15);
+  transition: 0.25s ease;
+}
+
+.featured-card:hover {
+  border-color: #ff4fd8;
+  box-shadow: 0 0 30px rgba(255,79,216,0.4);
+  transform: translateY(-4px);
+}
+
+/* -----------------------------------
+   INSPIRATION — RGB Glow Panels
+----------------------------------- */
+.inspiration {
+  margin-top: 4rem;
+}
+
+.inspo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.inspo-card {
+  background-size: cover;
+  background-position: center;
+  height: 180px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,79,216,0.4);
+  box-shadow: 0 0 25px rgba(255,79,216,0.25);
+  transition: 0.25s ease;
+}
+
+.inspo-card:hover {
+  box-shadow: 0 0 35px rgba(255,79,216,0.45);
+  transform: translateY(-4px);
+}
+
+/* -----------------------------------
+   FOOTER
+----------------------------------- */
+.footer {
+  margin-top: 4rem;
+  padding: 2rem 0;
+  border-top: 1px solid #1b2238;
+  color: #8fa3ff;
+}
+
+/* HERO SEARCH BAR */
+.hero-search {
+  margin: 1.5rem auto 1.5rem;
+  max-width: 520px;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.hero-search-input {
+  flex: 1;
+  padding: 0.7rem 1rem;
+  border-radius: 999px;
+  border: 1px solid rgba(90,124,255,0.6);
+  background: rgba(10,13,22,0.9);
+  color: #e6e6e6;
+  outline: none;
+}
+
+.hero-search-input::placeholder {
+  color: #7f8bb8;
+}
+
+.hero-search-btn {
+  padding: 0.7rem 1.4rem;
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(90deg, #5A7CFF, #ff4fd8);
+  color: #ffffff;
+  font-weight: 700;
+  box-shadow: 0 0 15px rgba(90,124,255,0.8);
+}
+
+/* TOP PICKS */
+.top-picks-sub {
+  color: #a9b4ff;
+  margin-bottom: 1.5rem;
+}
+
+/* FAQ SECTION */
+.faq-section {
+  margin-top: 3rem;
+  text-align: left;
+  padding-bottom: 3rem;
+}
+
+.faq-item {
+  background: #111827;
+  border-radius: 10px;
+  border: 1px solid rgba(90,124,255,0.4);
+  padding: 1rem 1.2rem;
+  margin-bottom: 1rem;
+}
+
+/* TRUST / E-E-A-T SECTION */
+.trust-section {
+  margin-top: 3rem;
+}
+
+.trust-text {
+  max-width: 700px;
+  margin: 0.5rem auto 0;
+  color: #c7d0ea;
+}
+
+.cat-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.search-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.search-bar {
+  display: flex;
+  gap: 12px;
+  width: 100%;
+  max-width: 550px;
+}
+
+.search-bar input[type="text"] {
+  flex: 1;
+  padding: 14px 18px;
+  font-size: 1rem;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(90, 124, 255, 0.35);
+  border-radius: 10px;
+  outline: none;
+  transition: 0.25s ease;
+  backdrop-filter: blur(6px);
+  border-color: #5A7CFF; /* neon blue */
+  box-shadow: 0 0 6px rgba(90, 124, 255, 0.25);
+  border-width: 2px;
+}
+
+.search-bar input[type="text"]:focus {
+  border-color: #a855f7;
+  box-shadow: 0 0 12px #a855f7;
+}
+
+.search-bar .btn-primary {
+  padding: 14px 22px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  background: linear-gradient(135deg, #a855f7, #ec4899);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.25s ease;
+}
+
+.search-bar .btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 15px #a855f7;
+}
+
+.featured-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.featured-section h2 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  background: linear-gradient(90deg, #5A7CFF, #ff4fd8);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+  letter-spacing: 0.04em;
+  font-weight: 600;
+}
+
+a:hover {
+  color: white;
+    text-decoration: none;
+    text-shadow: 
+        0 0 5px #5A7CFF, 
+        0 0 15px #5A7CFF;
+}
+
+.featured-card .btn-primary {
+  padding: 0.7rem 1.2rem;
+  background: linear-gradient(90deg, #5A7CFF, #ff4fd8);
+  color: #ffffff;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 700;
+  transition: 0.25s ease;
+}
+
+.featured-card .btn-primary:hover {
+  background: linear-gradient(90deg, #ff4fd8, #5A7CFF);
+  box-shadow: 0 0 15px rgba(255,79,216,0.8);
+  transform: translateY(-2px);
+}
+
+.featured-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.featured-card {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  border-radius: 10px;
+  background: #111;
+  border-color: #5A7CFF;
+  border-width: 2px;
+}
+
+.card-btn {
+  margin-top: auto;
+  display: inline-block;
+  padding: 10px 16px;
+  background: linear-gradient(90deg, #5A7CFF, #ff4fd8);
+  color: #ffffff;
+  border-radius: 6px;
+  text-align: center;
+  align-self: center;
+  text-decoration: none;
+}
+
+.best-list {
+  list-style: none;
+  padding: 0;
+}
+
+.best-list li {
+  padding: .5rem;
+}
+
+.footer {
+  text-align: center;  
+}
+
+.footer p {
+  margin-bottom: 3rem;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s ease-in-out;
+}
+
+/* Hide toggle on desktop */
+.nav-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 28px;
+  color: white;
+  cursor: pointer;
+}
+
+/* Mobile Styles */
+@media (max-width: 500px) {
+
+  .nav-toggle {
+    display: block;
+  }
+
+  .nav-right {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #101e2d;
+    padding: 10px 0;
+    gap: 10px;
+  }
+
+  .nav-right.open {
+    display: flex;
+  }
+
+  .nav-link {
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+  }
+
+.search-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+
+}
+
+
+
