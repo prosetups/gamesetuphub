@@ -97,7 +97,7 @@ body {
   font-size: 3rem;
   background: linear-gradient(90deg, #5A7CFF, #ff4fd8);
   -webkit-background-clip: text;
-  color: transparent;
+  color: white;
 }
 
 .subtitle {
@@ -747,6 +747,53 @@ h1 {
   text-align: center;
 }
 
+.alternatives {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+  margin-top: 4rem;
+   background: #111827;
+  border: 1px solid rgba(90,124,255,0.4);
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(90,124,255,0.15);
+  width: 70%;
+  border-width: 2px;
+}
+
+.alternatives li {
+  list-style: inside;
+}
+
+.final-verdict {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto; 
+  text-align: center;
+  background: #111827;
+  border: 1px solid rgba(90,124,255,0.4);
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(90,124,255,0.15);
+  width: 70%;
+  margin-top: 4rem;
+  border-width: 2px;
+  margin-bottom: 3rem;
+}
+
+.purchase-box {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto; 
+  text-align: center;
+}
+
+h2 {
+  background: linear-gradient(90deg, #5A7CFF, #ff4fd8);
+  -webkit-background-clip: text;
+  color: transparent;
+}
 
 /* Mobile Styles */
 @media (max-width: 500px) {
