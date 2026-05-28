@@ -1,62 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <!-- HOME -->
+  <!-- HOMEPAGE -->
   <url>
-    <loc>https://gamesetuphub.com/</loc>
+    <loc>https://prosetups.github.io/gamesetuphub/</loc>
     <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
   </url>
 
-  <!-- CATEGORY PAGES -->
+  <!-- MAIN CATEGORY PAGES -->
   <url>
-    <loc>https://gamesetuphub.com/desks/</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-
-  <url>
-    <loc>https://gamesetuphub.com/wallmounts/</loc>
+    <loc>https://prosetups.github.io/gamesetuphub/desks/</loc>
     <changefreq>weekly</changefreq>
   </url>
 
   <url>
-    <loc>https://gamesetuphub.com/accessories/</loc>
+    <loc>https://prosetups.github.io/gamesetuphub/wallmounts/</loc>
     <changefreq>weekly</changefreq>
   </url>
 
   <url>
-    <loc>https://gamesetuphub.com/pcs/</loc>
+    <loc>https://prosetups.github.io/gamesetuphub/accessories/</loc>
     <changefreq>weekly</changefreq>
   </url>
 
   <url>
-    <loc>https://gamesetuphub.com/decor/</loc>
+    <loc>https://prosetups.github.io/gamesetuphub/pcs/</loc>
     <changefreq>weekly</changefreq>
   </url>
 
   <url>
-    <loc>https://gamesetuphub.com/setups/</loc>
+    <loc>https://prosetups.github.io/gamesetuphub/decor.html</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://prosetups.github.io/gamesetuphub/setups/</loc>
     <changefreq>weekly</changefreq>
   </url>
 
   <!-- LEGAL PAGES -->
   <url>
-    <loc>https://gamesetuphub.com/privacy/</loc>
+    <loc>https://prosetups.github.io/gamesetuphub/privacy/</loc>
     <changefreq>yearly</changefreq>
   </url>
 
   <url>
-    <loc>https://gamesetuphub.com/terms/</loc>
+    <loc>https://prosetups.github.io/gamesetuphub/terms/</loc>
     <changefreq>yearly</changefreq>
   </url>
 
   <url>
-    <loc>https://gamesetuphub.com/affiliate-disclosure/</loc>
+    <loc>https://prosetups.github.io/gamesetuphub/affiliate-disclosure/</loc>
     <changefreq>yearly</changefreq>
   </url>
 
   <url>
-    <loc>https://gamesetuphub.com/contact/</loc>
+    <loc>https://prosetups.github.io/gamesetuphub/contact/</loc>
     <changefreq>yearly</changefreq>
+  </url>
+
+  <!-- INDIVIDUAL REVIEW PAGES -->
+  <url>
+    <loc>https://prosetups.github.io/gamesetuphub/best-gaming-keyboard-2026.html</loc>
+    <changefreq>monthly</changefreq>
   </url>
 
 </urlset>
