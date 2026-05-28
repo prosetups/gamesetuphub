@@ -795,6 +795,54 @@ h2 {
   color: transparent;
 }
 
+.comparison-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgba(90,124,255,0.4); /* MATCHES YOUR CARDS */
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(90,124,255,0.15); /* MATCHES YOUR CARDS */
+  border-width: 2px;
+  background: #111;
+  border-color: #5A7CFF;
+}
+
+
+.comp-header {
+  font-weight: 700;
+  font-size: 1.1rem;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #5A7CFF;
+  color: #ffffff;
+}
+
+.comparison-grid > div {
+  padding: 12px 8px;
+  color: #cbd5e1;
+}
+
+.comparison-grid a.table-btn {
+  display: inline-block;
+  background: linear-gradient(135deg, #a855f7, #ec4899);
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+.comparison-grid a.table-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 12px #a855f7;
+}
+
+
 /* Mobile Styles */
 @media (max-width: 500px) {
 
