@@ -519,7 +519,6 @@ a:hover {
    list-style: none;
    display: flex;
    flex-direction: column;
-   gap: 1rem;
 }
 
 .aeo-list li {
@@ -841,6 +840,86 @@ h2 {
   transform: translateY(-2px);
   box-shadow: 0 0 12px #a855f7;
 }
+
+/* Container Layout */
+.products-section {
+  max-width: 800px; /* Limits width to match your header layout */
+  margin: 0 auto;   /* Centers the entire section on the screen */
+  padding: 20px;
+}
+
+.product-list {
+  list-style: none; /* Removes the bullet points */
+  padding: 0;
+  margin: 0;
+}
+
+/* Row Alignment */
+.product-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0; /* Increased spacing slightly to let the gradient pop */
+  
+  /* --- The Gradient Border Code --- */
+  border-bottom: 2px solid; /* Set the thickness of the line */
+  border-image: linear-gradient(135deg, #a855f7, #ec4899) 1; /* Applies your gradient */
+}
+
+.product-item:last-child {
+  border-bottom: none;
+  border-image: none;
+}
+
+
+
+/* Typography styles */
+.product-title {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* Actions Grouping */
+.product-actions {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* Spaces out Read Details, slash, and Button */
+}
+
+.read-details {
+  color: #4f46e5; /* Cleaner neon blue link color */
+  text-decoration: none;
+}
+
+.read-details:hover {
+  text-decoration: underline;
+}
+
+.divider {
+  color: #666;
+}
+
+/* Pink CTA Button Styles */
+.check-price-btn {
+  background: linear-gradient(135deg, #a855f7, #ec4899); /* Matching your hot pink color */
+  color: white;            /* Dark text for clear readability */
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 8px 18px;         /* Balanced vertical and horizontal breathing room */
+  border-radius: 6px;        /* Smooth, modern rounded corners */
+  transition: background 0.2s ease;
+  display: inline-block;
+}
+
+/* Interactive Hover effect */
+.check-price-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 12px #a855f7;
+}
+
+
 
 /* Mobile Styles */
 @media (max-width: 500px) {
