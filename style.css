@@ -919,8 +919,6 @@ h2 {
   box-shadow: 0 0 12px #a855f7;
 }
 
-
-
 /* Mobile Styles */
 @media (max-width: 500px) {
 
@@ -947,14 +945,61 @@ h2 {
     width: 100%;
   }
 
-.search-bar {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
+  .search-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  /* -------------------------------------- */
+  /* FIXED COMPARISON GRID MOBILE SECTION   */
+  /* -------------------------------------- */
+
+  /* Collapse grid */
+  .comparison-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Style each row block */
+  .comparison-grid > div {
+    padding: 12px 16px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    text-align: left;
+  }
+
+  /* Add spacing between product cards */
+  .comparison-grid > div:nth-child(4n+1) { 
+    margin-top: 20px; 
+  }
+
+  /* Hide headers */
+  .comp-header {
+    display: none;
+  }
+
+  /* Add labels */
+  .comparison-grid > div:nth-child(4n+1)::before {
+    content: "Peripheral: ";
+    font-weight: bold;
+    color: #5A7CFF;
+  }
+
+  .comparison-grid > div:nth-child(4n+2)::before {
+    content: "Best For: ";
+    font-weight: bold;
+    color: #5A7CFF;
+  }
+
+  .comparison-grid > div:nth-child(4n+3)::before {
+    content: "Top Features: ";
+    font-weight: bold;
+    color: #5A7CFF;
+  }
+
+  .comparison-grid > div:nth-child(4n+4)::before {
+    content: "Store: ";
+    font-weight: bold;
+    color: #5A7CFF;
+  }
+
 }
-
-
-}
-
-
-
