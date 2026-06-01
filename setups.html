@@ -3,59 +3,53 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gaming Setup Ideas & Inspiration | GameSetupHub</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Gaming Setup Inspiration | GameSetupHub</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
+<!-- HEADER -->
 <header class="main-header">
-  <div class="nav-container">
+  <nav class="nav-container">
     <a href="index.html" class="nav-logo">GameSetupHub</a>
 
-    <button class="nav-toggle" onclick="document.querySelector('.nav-right').classList.toggle('open')">
-      ☰
-    </button>
+    <button class="nav-toggle" id="navToggle">☰</button>
 
-    <nav class="nav-right">
-      <a href="index.html" class="nav-link">Home</a>
-      <a href="setups.html" class="nav-link">Setups</a>
-      <a href="accessories.html" class="nav-link">Accessories</a>
+    <div class="nav-right" id="navMenu">
       <a href="desks.html" class="nav-link">Desks</a>
       <a href="wallmounts.html" class="nav-link">Wall Mounts</a>
+      <a href="accessories.html" class="nav-link">Accessories</a>
+      <a href="pcs.html" class="nav-link">PC Builds</a>
       <a href="decor.html" class="nav-link">RGB & Decor</a>
-    </nav>
-  </div>
+      <a href="setups.html" class="nav-link">Setups</a>
+    </div>
+  </nav>
 </header>
 
-<!-- AFFILIATE DISCLOSURE -->
-    <p class="affiliate-note">
-      *This page contains affiliate links. As an Amazon Associate, we may earn a commission at no extra cost to you.*
-    </p>
+<main class="page-wrapper">
 
-    <!-- BREADCRUMBS -->
-    <div class="breadcrumbs">
-      <a href="index.html">Home</a> › <span>Setups</span>
-    </div>
-
-    <div class="section-divider"></div>
-
-<div class="page-wrapper">
+  <!-- AFFILIATE NOTE -->
+  <p class="affiliate-note">
+    *This page contains affiliate links. As an Amazon Associate, we may earn a commission at no extra cost to you.*
+  </p>
 
   <!-- HERO -->
-  <section class="hero">
+  <section class="hero" style="background-image:url('images/hero-bg.jpg')">
     <div class="hero-content">
       <h1>Gaming Setup Inspiration</h1>
       <p class="subtitle">Clean. RGB. Minimal. Aesthetic. Build your dream battlestation.</p>
-
       <a href="#inspo" class="btn-glow">Browse Setups</a>
     </div>
   </section>
 
-  <!-- CATEGORY GRID -->
+  <div class="section-divider"></div>
+
+  <!-- SETUP STYLE CATEGORIES -->
   <h2 class="section-title">Setup Styles</h2>
 
   <div class="category-grid">
+
     <div class="cat-card">
       <img src="images/setups/minimal.jpg" class="cat-icon">
       <h3>Minimal White Setup</h3>
@@ -79,6 +73,7 @@
       <h3>Budget Setup</h3>
       <a href="#budget" class="btn-outline">View Setup</a>
     </div>
+
   </div>
 
   <div class="section-divider"></div>
@@ -95,38 +90,40 @@
 
   <div class="section-divider"></div>
 
-  <!-- FULL SETUP BREAKDOWN -->
+  <!-- MINIMAL SETUP -->
   <section id="minimal">
     <h2 class="section-title">Minimal White Setup</h2>
 
     <div class="featured-grid">
+
       <div class="featured-card">
         <img src="images/setups/minimal-desk.jpg">
         <h3>Desk</h3>
         <p>Clean white desk with hidden cable routing.</p>
-        <a class="btn-primary" href="#">Check Price</a>
+        <a href="#" class="btn-primary">Check Price</a>
       </div>
 
       <div class="featured-card">
         <img src="images/setups/minimal-monitor.jpg">
         <h3>Monitor</h3>
         <p>27" IPS panel with ultra-thin bezels.</p>
-        <a class="btn-primary" href="#">Check Price</a>
+        <a href="#" class="btn-primary">Check Price</a>
       </div>
 
       <div class="featured-card">
         <img src="images/setups/minimal-keyboard.jpg">
         <h3>Keyboard</h3>
         <p>Low-profile mechanical keyboard.</p>
-        <a class="btn-primary" href="#">Check Price</a>
+        <a href="#" class="btn-primary">Check Price</a>
       </div>
 
       <div class="featured-card">
         <img src="images/setups/minimal-rgb.jpg">
         <h3>Lighting</h3>
         <p>Soft white LED strips for a clean glow.</p>
-        <a class="btn-primary" href="#">Check Price</a>
+        <a href="#" class="btn-primary">Check Price</a>
       </div>
+
     </div>
   </section>
 
@@ -143,31 +140,101 @@
     </div>
 
     <div class="featured-grid">
+
       <div class="featured-card">
         <img src="images/setups/rgb-panels.jpg">
         <h3>RGB Wall Panels</h3>
         <p>Dynamic lighting for immersive gaming.</p>
-        <a class="btn-primary" href="#">Check Price</a>
+        <a href="#" class="btn-primary">Check Price</a>
       </div>
 
       <div class="featured-card">
         <img src="images/setups/rgb-desk.jpg">
         <h3>RGB Desk</h3>
         <p>Built-in lighting with reactive effects.</p>
-        <a class="btn-primary" href="#">Check Price</a>
+        <a href="#" class="btn-primary">Check Price</a>
       </div>
+
     </div>
   </section>
 
   <div class="section-divider"></div>
 
-  <!-- FOOTER -->
-  <footer class="footer">
-    <p>© 2026 GameSetupHub — Build Your Dream Setup</p>
-  </footer>
+  <!-- ULTRAWIDE SETUP -->
+  <section id="ultrawide">
+    <h2 class="section-title">Ultrawide Gaming Setup</h2>
 
-</div>
+    <div class="inspo-grid">
+      <div class="inspo-card" style="background-image:url('images/setups/ultra1.jpg')"></div>
+      <div class="inspo-card" style="background-image:url('images/setups/ultra2.jpg')"></div>
+    </div>
+
+    <div class="featured-grid">
+
+      <div class="featured-card">
+        <img src="images/setups/ultra-monitor.jpg">
+        <h3>Ultrawide Monitor</h3>
+        <p>Immersive 34–49 inch curved display.</p>
+        <a href="#" class="btn-primary">Check Price</a>
+      </div>
+
+      <div class="featured-card">
+        <img src="images/setups/ultra-arm.jpg">
+        <h3>Monitor Arm</h3>
+        <p>Heavy-duty arm for large ultrawide panels.</p>
+        <a href="#" class="btn-primary">Check Price</a>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <!-- BUDGET SETUP -->
+  <section id="budget">
+    <h2 class="section-title">Budget Gaming Setup</h2>
+
+    <div class="inspo-grid">
+      <div class="inspo-card" style="background-image:url('images/setups/budget1.jpg')"></div>
+      <div class="inspo-card" style="background-image:url('images/setups/budget2.jpg')"></div>
+    </div>
+
+    <div class="featured-grid">
+
+      <div class="featured-card">
+        <img src="images/setups/budget-desk.jpg">
+        <h3>Budget Desk</h3>
+        <p>Affordable and sturdy for starter setups.</p>
+        <a href="#" class="btn-primary">Check Price</a>
+      </div>
+
+      <div class="featured-card">
+        <img src="images/setups/budget-rgb.jpg">
+        <h3>RGB Strip Lights</h3>
+        <p>Cheap but effective RGB lighting.</p>
+        <a href="#" class="btn-primary">Check Price</a>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <p>© 2026 GameSetupHub — Gaming Setup Inspiration</p>
+  <div class="footer-links">
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="terms.html">Terms & Conditions</a>
+    <a href="affiliate-disclosure.html">Affiliate Disclosure</a>
+    <a href="contact.html">Contact</a>
+    <a href="setups.html">Setups</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
-
