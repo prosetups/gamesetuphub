@@ -141,6 +141,21 @@ function handleSearch() {
     item.keywords.toLowerCase().includes(query)
   );
 
+  const input = document.getElementById("searchInput");
+const dropdown = document.getElementById("searchDropdown");
+
+function positionDropdown() {
+  const rect = input.getBoundingClientRect();
+  dropdown.style.top = rect.bottom + "px";
+  dropdown.style.left = rect.left + "px";
+  dropdown.style.width = rect.width + "px";
+}
+
+input.addEventListener("input", positionDropdown);
+window.addEventListener("resize", positionDropdown);
+window.addEventListener("scroll", positionDropdown);
+
+
   renderResults(filtered);
 }
 
