@@ -1,584 +1,402 @@
-[
-  {
-    "title": "Budget Gaming PC",
-    "keywords": "budget cheap starter 1080p entry level low cost affordable beginner first pc esports fortnite valorant low end build",
-    "url": "builds/budget.html"
-  },
-  {
-    "title": "Mid‑Range RGB Setup",
-    "keywords": "rgb midrange 1440p colorful lighting led neon ambient aesthetic setup desk lights gaming room",
-    "url": "builds/midrange.html"
-  },
-  {
-    "title": "High‑End 4090 Build",
-    "keywords": "4090 highend 4k ultra max settings flagship nvidia rtx4090 powerhouse extreme gaming top tier high fps",
-    "url": "builds/highend.html"
-  },
-  {
-    "title": "Entry-Level Build — AMD",
-    "keywords": "entry level amd budget 5600g integrated graphics cheap starter apu beginner build esports light gaming low cost",
-    "url": "pcs.html#entry-amd"
-  },
-  {
-    "title": "Entry-Level Build — Intel",
-    "keywords": "entry level intel budget i3 13100f rx6600 starter 1080p cheap gaming beginner build low cost esports",
-    "url": "pcs.html#entry-intel"
-  },
-  {
-    "title": "Mid-Range Build — AMD",
-    "keywords": "mid range amd 7600 rtx5060 1440p 2k gaming mid build fps smooth performance upgrade sweet spot",
-    "url": "pcs.html#mid-amd"
-  },
-  {
-    "title": "Mid-Range Build — Intel",
-    "keywords": "mid range intel 14400f rtx5060ti 1440p 2k gaming mid build content creation editing streaming",
-    "url": "pcs.html#mid-intel"
-  },
-  {
-    "title": "High-End Build — AMD",
-    "keywords": "high end amd 7800x3d rtx4080super 4k ultra max settings streaming high fps enthusiast gaming",
-    "url": "pcs.html#high-amd"
-  },
-  {
-    "title": "High-End Build — Intel",
-    "keywords": "high end intel 14700k rtx5080 4k ultra productivity workstation creator editing rendering",
-    "url": "pcs.html#high-intel"
-  },
-  {
-    "title": "Enthusiast Build — AMD",
-    "keywords": "enthusiast amd 9800x3d rtx5080 extreme gaming top tier fps monster build premium setup",
-    "url": "pcs.html#enthusiast-amd"
-  },
-  {
-    "title": "Enthusiast Build — Intel",
-    "keywords": "enthusiast intel 14900k rtx4090 ultimate workstation gaming beast high performance creator rig",
-    "url": "pcs.html#enthusiast-intel"
-  },
-  {
-    "title": "Gaming Desks",
-    "keywords": "desks desk gaming desk setups workspace table standing desk l shaped desk",
-    "url": "desks.html"
-  },
-  {
-    "title": "Wall Mounts",
-    "keywords": "wall mounts monitor mount arm vesa bracket floating monitor setup clean desk",
-    "url": "wallmounts.html"
-  },
-  {
-    "title": "RGB & Decor",
-    "keywords": "rgb decor lighting led strips neon ambient lights room aesthetic gaming room glow",
-    "url": "decor.html"
-  },
-  {
-    "title": "Gaming Accessories",
-    "keywords": "accessories mouse keyboard headset mic webcam peripherals gaming gear",
-    "url": "accessories.html"
-  },
-  {
-    "title": "Gaming Setups",
-    "keywords": "setups inspiration gaming rooms battlestation ideas desk layout rgb setup tour",
-    "url": "setups.html"
-  }
+{
+  "pc_builds": [
+    {
+      "title": "Budget Gaming PC",
+      "keywords": "budget cheap starter 1080p entry level low cost affordable beginner first pc esports fortnite valorant low end build",
+      "url": "builds/budget.html"
+    },
+    {
+      "title": "Enthusiast Build — AMD",
+      "keywords": "enthusiast amd 9800x3d rtx5080 extreme gaming top tier fps monster build premium setup",
+      "url": "pcs.html#enthusiast-amd"
+    },
+    {
+      "title": "Enthusiast Build — Intel",
+      "keywords": "enthusiast intel 14900k rtx4090 ultimate workstation gaming beast high performance creator rig",
+      "url": "pcs.html#enthusiast-intel"
+    },
+    {
+      "title": "Entry-Level Build — AMD",
+      "keywords": "entry level amd budget 5600g integrated graphics cheap starter apu beginner build esports light gaming low cost",
+      "url": "pcs.html#entry-amd"
+    },
+    {
+      "title": "Entry-Level Build — Intel",
+      "keywords": "entry level intel budget i3 13100f rx6600 starter 1080p cheap gaming beginner build low cost esports",
+      "url": "pcs.html#entry-intel"
+    },
+    {
+      "title": "High-End 4090 Build",
+      "keywords": "4090 highend 4k ultra max settings flagship nvidia rtx4090 powerhouse extreme gaming top tier high fps",
+      "url": "builds/highend.html"
+    },
+    {
+      "title": "High-End Build — AMD",
+      "keywords": "high end amd 7800x3d rtx4080super 4k ultra max settings streaming high fps enthusiast gaming",
+      "url": "pcs.html#high-amd"
+    },
+    {
+      "title": "High-End Build — Intel",
+      "keywords": "high end intel 14700k rtx5080 4k ultra productivity workstation creator editing rendering",
+      "url": "pcs.html#high-intel"
+    },
+    {
+      "title": "Mid-Range Build — AMD",
+      "keywords": "mid range amd 7600 rtx5060 1440p 2k gaming mid build fps smooth performance upgrade sweet spot",
+      "url": "pcs.html#mid-amd"
+    },
+    {
+      "title": "Mid-Range Build — Intel",
+      "keywords": "mid range intel 14400f rtx5060ti 1440p 2k gaming mid build content creation editing streaming",
+      "url": "pcs.html#mid-intel"
+    }
+  ],
 
-  {
-    "title": "Best RGB Headset Mount",
-    "keywords": "rgb headset mount wall mount rgb lighting aesthetic clean setup accessory",
-    "url": "bestdualcontrollermount.html",
-    "category": "Wall Mounts"
-  },
-  {
-    "title": "Best Dual Controller Mount",
-    "keywords": "controller mount dual controller wall mount xbox playstation pc holder",
-    "url": "bestdualcontrollermount.html",
-    "category": "Wall Mounts"
-  },
-  {
-    "title": "Best RGB Wall Panel Set",
-    "keywords": "rgb wall panel set lighting decor modular panels diamond rgb lights",
-    "url": "bestrgbwallpanelset.html",
-    "category": "Wall Mounts"
-  },
-  {
-    "title": "Best Floating Shelf for Gaming Setups",
-    "keywords": "floating shelf gaming shelf wall shelf display shelf clean setup",
-    "url": "bestfloatingshelf.html",
-    "category": "Wall Mounts"
-  },
-  {
-    "title": "Best Display Mount",
-    "keywords": "display mount monitor mount wall mount cable free clean setup",
-    "url": "bestcablefreedisplaymount.html",
-    "category": "Wall Mounts"
-  },
-  {
-    "title": "RGB Headset Wall Mount (Featured)",
-    "keywords": "rgb headset wall mount best overall rgb lighting clean aesthetic",
-    "url": "https://amzn.to/4vjodTW",
-    "category": "Wall Mounts"
-  },
-  {
-    "title": "Dual Controller Holder (Featured)",
-    "keywords": "controller mount dual controller holder xbox ps5 pc gaming",
-    "url": "https://amzn.to/43amC71",
-    "category": "Wall Mounts"
-  },
-  {
-    "title": "Modular RGB Wall Panels (Featured)",
-    "keywords": "rgb wall panels modular lighting decor gaming room",
-    "url": "https://amzn.to/4u7IL0G",
-    "category": "Wall Mounts"
-  }
+  "desks": [
+    {
+      "title": "Best Budget Desk",
+      "keywords": "budget desk cheap desk affordable desk starter desk gaming desk",
+      "url": "bestbudgetdesk.html"
+    },
+    {
+      "title": "Best Electric Standing Desk",
+      "keywords": "electric standing desk adjustable height motorized desk ergonomic",
+      "url": "https://amzn.to/4wQg6Qm"
+    },
+    {
+      "title": "Best Gaming Desk on Amazon",
+      "keywords": "gaming desk amazon best desk 2026 sturdy desk gamer desk setup",
+      "url": "bestgamingdesk.html"
+    },
+    {
+      "title": "Best L-Shaped Corner Gaming Desk",
+      "keywords": "l shaped corner desk gaming desk corner workstation steel frame",
+      "url": "https://amzn.to/4dIbZi0"
+    },
+    {
+      "title": "Best L-Shaped Desk",
+      "keywords": "l shaped desk corner desk gaming l desk reversible l desk",
+      "url": "bestldesk.html"
+    },
+    {
+      "title": "Best Minimalist Desk",
+      "keywords": "minimalist desk clean desk simple desk modern desk white desk",
+      "url": "bestminimalistdesk.html"
+    },
+    {
+      "title": "Best Overall Desk (Comparison Table)",
+      "keywords": "best overall desk comparison sturdy steel frame multitier desk",
+      "url": "https://amzn.to/4u7oDvE"
+    },
+    {
+      "title": "Best Overall Gaming Desk",
+      "keywords": "overall gaming desk electric height adjustable desk 55x28 desk motor lift",
+      "url": "https://amzn.to/4nYSSnb"
+    },
+    {
+      "title": "Best Standing Desk",
+      "keywords": "standing desk electric standing desk adjustable height ergonomic desk",
+      "url": "beststandingdesk.html"
+    },
+    {
+      "title": "Electric Standing Desk (Comparison Table)",
+      "keywords": "electric standing desk adjustable height stable base motorized lift",
+      "url": "https://amzn.to/4x07EOw"
+    },
+    {
+      "title": "Gaming Desks",
+      "keywords": "desks desk gaming desk setups workspace table standing desk l shaped desk",
+      "url": "desks.html"
+    },
+    {
+      "title": "L-Shaped Corner Desk (Comparison Table)",
+      "keywords": "l shaped desk rgb desk tempered glass rgb lighting cable management",
+      "url": "https://amzn.to/432c6ia"
+    }
+  ],
 
-  {
-    "title": "Minimal White Setup",
-    "keywords": "minimal white setup clean aesthetic desk setup inspiration battlestation minimalistic",
-    "url": "setups.html#minimal",
-    "category": "Setups"
-  },
-  {
-    "title": "Minimal Setup Desk",
-    "keywords": "minimal desk white desk clean setup cable management minimalist furniture",
-    "url": "https://amzn.to/4ve2Weg",
-    "category": "Setups"
-  },
-  {
-    "title": "Minimal Setup Monitor",
-    "keywords": "minimal monitor white monitor thin bezel ips panel 27 inch",
-    "url": "https://amzn.to/4agFg0L",
-    "category": "Setups"
-  },
-  {
-    "title": "Minimal Setup Keyboard",
-    "keywords": "minimal keyboard white keyboard low profile mechanical clean aesthetic",
-    "url": "https://amzn.to/43cATjA",
-    "category": "Setups"
-  },
-  {
-    "title": "Minimal Setup Lighting",
-    "keywords": "minimal lighting white led strips soft glow aesthetic lighting",
-    "url": "https://amzn.to/4ekTv6j",
-    "category": "Setups"
-  },
+  "wall_mounts": [
+    {
+      "title": "Best Display Mount",
+      "keywords": "display mount monitor mount wall mount cable free clean setup",
+      "url": "bestcablefreedisplaymount.html"
+    },
+    {
+      "title": "Best Dual Controller Mount",
+      "keywords": "controller mount dual controller wall mount xbox playstation pc holder",
+      "url": "bestdualcontrollermount.html"
+    },
+    {
+      "title": "Best Floating Shelf for Gaming Setups",
+      "keywords": "floating shelf gaming shelf wall shelf display shelf clean setup",
+      "url": "bestfloatingshelf.html"
+    },
+    {
+      "title": "Best RGB Headset Mount",
+      "keywords": "rgb headset mount wall mount rgb lighting aesthetic clean setup accessory",
+      "url": "bestdualcontrollermount.html"
+    },
+    {
+      "title": "Best RGB Wall Panel Set",
+      "keywords": "rgb wall panel set lighting decor modular panels diamond rgb lights",
+      "url": "bestrgbwallpanelset.html"
+    },
+    {
+      "title": "Dual Controller Holder (Featured)",
+      "keywords": "controller mount dual controller holder xbox ps5 pc gaming",
+      "url": "https://amzn.to/43amC71"
+    },
+    {
+      "title": "Modular RGB Wall Panels (Featured)",
+      "keywords": "rgb wall panels modular lighting decor gaming room",
+      "url": "https://amzn.to/4u7IL0G"
+    },
+    {
+      "title": "RGB Headset Wall Mount (Featured)",
+      "keywords": "rgb headset wall mount best overall rgb lighting clean aesthetic",
+      "url": "https://amzn.to/4vjodTW"
+    },
+    {
+      "title": "Wall Mounts",
+      "keywords": "wall mounts monitor mount arm vesa bracket floating monitor setup clean desk",
+      "url": "wallmounts.html"
+    }
+  ],
 
-  {
-    "title": "RGB Battlestation",
-    "keywords": "rgb battlestation rgb setup gaming room rgb inspiration colorful lighting",
-    "url": "setups.html#rgb",
-    "category": "Setups"
-  },
-  {
-    "title": "RGB Wall Panels",
-    "keywords": "rgb wall panels modular lighting rgb decor gaming room lights",
-    "url": "https://amzn.to/4o4nsMn",
-    "category": "Setups"
-  },
-  {
-    "title": "RGB Desk",
-    "keywords": "rgb desk gaming desk rgb lighting built in lights",
-    "url": "https://amzn.to/3QcHKGQ",
-    "category": "Setups"
-  },
+  "rgb_decor": [
+    {
+      "title": "Best LED Strip Lights",
+      "keywords": "led strip lights rgb strips under desk glow lighting cheap bright flexible",
+      "url": "bestledstrips.html"
+    },
+    {
+      "title": "Best Nanoleaf Alternatives",
+      "keywords": "nanoleaf alternatives rgb panels budget rgb wall lights modular",
+      "url": "bestnanoleafalternatives.html"
+    },
+    {
+      "title": "Best Neon Signs",
+      "keywords": "neon signs rgb neon gaming sign wall decor personality glow",
+      "url": "bestneonsigns.html"
+    },
+    {
+      "title": "Best RGB Wall Panels",
+      "keywords": "rgb wall panels modular lighting decor gaming room panels aesthetic",
+      "url": "bestrgbpanels.html"
+    },
+    {
+      "title": "Best Wall Lights",
+      "keywords": "wall lights ambient lighting rgb wall decor gaming room lights",
+      "url": "bestwalllights.html"
+    },
+    {
+      "title": "LED Strip Lights (Comparison Table)",
+      "keywords": "led strip lights flexible cheap bright rgb lighting desk glow",
+      "url": "https://amzn.to/4dGGS6h"
+    },
+    {
+      "title": "Modular RGB Wall Panels (Featured)",
+      "keywords": "modular rgb wall panels reactive lighting decor gaming room",
+      "url": "https://amzn.to/4x1gzPR"
+    },
+    {
+      "title": "Neon Gaming Sign (Featured)",
+      "keywords": "neon gaming sign rgb neon wall decor personality color glow",
+      "url": "https://amzn.to/4wV23Jj"
+    },
+    {
+      "title": "Neon Signs (Comparison Table)",
+      "keywords": "neon signs rgb neon wall decor custom shapes vibrant glow",
+      "url": "https://amzn.to/4xiBRc3"
+    },
+    {
+      "title": "RGB & Decor",
+      "keywords": "rgb decor lighting led strips neon ambient lights room aesthetic gaming room glow",
+      "url": "decor.html"
+    },
+    {
+      "title": "RGB LED Strip Lights (Featured)",
+      "keywords": "rgb led strip lights under desk glow monitor backlight room lighting",
+      "url": "https://amzn.to/4dGFuk3"
+    },
+    {
+      "title": "RGB Wall Panels (Comparison Table)",
+      "keywords": "rgb wall panels modular reactive lighting decor gaming room",
+      "url": "https://amzn.to/4wZtlhB"
+    }
+  ],
 
-  {
-    "title": "Ultrawide Gaming Setup",
-    "keywords": "ultrawide gaming setup curved monitor 34 inch 49 inch immersive",
-    "url": "setups.html#ultrawide",
-    "category": "Setups"
-  },
-  {
-    "title": "Ultrawide Monitor",
-    "keywords": "ultrawide monitor curved display 34 inch 49 inch gaming monitor",
-    "url": "https://amzn.to/3PE3r2q",
-    "category": "Setups"
-  },
-  {
-    "title": "Ultrawide Monitor Arm",
-    "keywords": "monitor arm ultrawide heavy duty mount curved monitor arm",
-    "url": "https://amzn.to/3RESeiF",
-    "category": "Setups"
-  },
+  "accessories": [
+    {
+      "title": "Artisan Ninja FX Zero Soft — Alternative",
+      "keywords": "artisan ninja fx zero soft mousepad japanese mousepad control pad premium gaming pad",
+      "url": "https://amzn.to/3RGHFvr"
+    },
+    {
+      "title": "AULA F75 — Amazon Listing",
+      "keywords": "aula f75 keyboard amazon tri mode wireless gasket mount mechanical keyboard premium sound",
+      "url": "https://amzn.to/3Q0E8HI"
+    },
+    {
+      "title": "AULA WIN60 HE — Alternative",
+      "keywords": "aula win60 he analog keyboard hall effect gaming keyboard compact 60 percent",
+      "url": "https://amzn.to/4o7cTbo"
+    },
+    {
+      "title": "Best Extended Mousepad Pick on Amazon",
+      "keywords": "extended mousepad gaming mousepad desk mat large mousepad amazon pick",
+      "url": "bestmousepad.html"
+    },
+    {
+      "title": "Best FPS Mouse — Lightweight Gaming Mouse",
+      "keywords": "fps mouse lightweight mouse wireless gaming mouse esports mouse",
+      "url": "https://amzn.to/4uJNgzP"
+    },
+    {
+      "title": "Best Gaming Headset 2026 — Razer BlackShark V2 Pro",
+      "keywords": "gaming headset razer blackshark v2 pro best headset 2026 esports headset wireless hyperspeed titanium drivers competitive audio",
+      "url": "bestheadset.html"
+    },
+    {
+      "title": "Best Gaming Keyboard 2026 — AULA F75",
+      "keywords": "gaming keyboard aula f75 best keyboard 2026 tri mode wireless gasket mount thocky sound hot swappable switches",
+      "url": "bestkeyboard.html"
+    },
+    {
+      "title": "Best Gaming Mouse 2026 — Logitech G Pro X Superlight 2",
+      "keywords": "gaming mouse logitech g pro x superlight 2 best mouse 2026 ultralight 40g hero 2 sensor wireless fps esports",
+      "url": "bestgamingmouse.html"
+    },
+    {
+      "title": "Best Gaming Mouse Pick on Amazon",
+      "keywords": "gaming mouse fps mouse lightweight mouse wireless mouse amazon pick",
+      "url": "bestgamingmouse.html"
+    },
+    {
+      "title": "Best Gaming Mousepad 2026 — SteelSeries QcK Heavy XXL",
+      "keywords": "gaming mousepad steelseries qck heavy xxl best mousepad 2026 control speed thick rubber base extended pad",
+      "url": "bestmousepad.html"
+    },
+    {
+      "title": "Best Gaming Microphone 2026 — Shure SM7B",
+      "keywords": "gaming microphone shure sm7b best mic 2026 streaming mic broadcast mic dynamic mic professional sound",
+      "url": "bestmicrophone.html"
+    },
+    {
+      "title": "Best Gaming Mouse Pick on Amazon",
+      "keywords": "gaming mouse fps mouse lightweight mouse wireless mouse amazon pick",
+      "url": "bestgamingmouse.html"
+    },
+    {
+      "title": "Best Gaming Keyboard Pick on Amazon",
+      "keywords": "gaming keyboard mechanical keyboard rgb keyboard hot swap switches amazon pick",
+      "url": "bestkeyboard.html"
+    },
+    {
+      "title": "Best Gaming Headset Pick on Amazon",
+      "keywords": "gaming headset surround sound headset wireless headset amazon pick",
+      "url": "bestheadset.html"
+    },
+    {
+      "title": "Best Microphone Pick on Amazon",
+      "keywords": "gaming microphone streaming mic usb mic podcast mic amazon pick",
+      "url": "bestmicrophone.html"
+    },
+    {
+      "title": "Blue Yeti X — Alternative",
+      "keywords": "blue yeti x microphone usb mic beginner mic rich sound streaming mic",
+      "url": "https://amzn.to/4dJTJVs"
+    },
+    {
+      "title": "Elgato Wave:3 — Alternative",
+      "keywords": "elgato wave 3 microphone usb mic streaming mic best usb mic",
+      "url": "https://amzn.to/4dGMOMG"
+    },
+    {
+      "title": "Fifine USB/XLR — Alternative",
+      "keywords": "fifine microphone usb xlr budget mic gaming mic streaming mic",
+      "url": "https://amzn.to/4ufdx81"
+    },
+    {
+      "title": "Finalmouse Ultralight 2 — Alternative",
+      "keywords": "finalmouse ultralight 2 gaming mouse lightest mouse ultralight fps",
+      "url": "https://amzn.to/4uP7eZW"
+    },
+    {
+      "title": "Gaming Accessories",
+      "keywords": "accessories mouse keyboard headset mic webcam peripherals gaming gear",
+      "url": "accessories.html"
+    },
+    {
+      "title": "Gaming Headset (Comparison Table)",
+      "keywords": "gaming headset spatial audio clarity reliable headset",
+      "url": "https://amzn.to/4dGEvjR"
+    },
+    {
+      "title": "Keychron K10 HE — Alternative",
+      "keywords": "keychron k10 he hall effect keyboard esports keyboard fast response",
+      "url": "https://amzn.to/4feWRK1"
+    },
+    {
+      "title": "Keychron Q1 Pro — Alternative",
+      "keywords": "keychron q1 pro keyboard aluminum keyboard premium mechanical keyboard wireless",
+      "url": "https://amzn.to/49xHMzw"
+    },
+    {
+      "title": "Lightweight Mouse (Comparison Table)",
+      "keywords": "lightweight mouse fps mouse low latency flawless tracking 49g",
+      "url": "https://amzn.to/4wXHY54"
+    },
+    {
+      "title": "Logitech G Pro X Superlight 2 — Amazon Listing",
+      "keywords": "logitech g pro x superlight 2 mouse amazon ultralight 40g hero 2 sensor wireless fps mouse",
+      "url": "https://amzn.to/49T9Wp1"
+    },
+    {
+      "title": "Mechanical Keyboard (Comparison Table)",
+      "keywords": "mechanical keyboard hot swap rgb gasket mount typing gaming",
+      "url": "https://amzn.to/4vlPCVn"
+    },
+    {
+      "title": "Razer Gigantus V2 — Alternative",
+      "keywords": "razer gigantus v2 mousepad gaming mousepad smooth glide thick base control pad",
+      "url": "https://amzn.to/4vmACq7"
+    },
+    {
+      "title": "Razer Viper V4 Pro — Alternative",
+      "keywords": "razer viper v4 pro gaming mouse claw grip esports mouse lightweight",
+      "url": "https://amzn.to/4x3RXG0"
+    },
+    {
+      "title": "Shure SM7B — Amazon Listing",
+      "keywords": "shure sm7b microphone amazon broadcast mic dynamic mic streaming mic professional audio",
+      "url": "https://amzn.to/4dV1c2N"
+    },
+    {
+      "title": "SteelSeries Arctis Nova Pro Wireless — Alternative",
+      "keywords": "steelseries arctis nova pro wireless headset anc premium audio gaming headset",
+      "url": "https://amzn.to/4dRzaoI"
+    },
+    {
+      "title": "SteelSeries QcK Heavy XXL — Amazon Listing",
+      "keywords": "steelseries qck heavy xxl mousepad amazon extended mousepad thick rubber base micro woven cloth",
+      "url": "https://amzn.to/4x0Zpll"
+    },
+    {
+      "title": "Wireless Charging RGB Mousepad — Alternative",
+      "keywords": "rgb mousepad wireless charging qi rgb extended mousepad lighting gaming pad",
+      "url": "https://amzn.to/4u5cDL9"
+    }
+  ],
 
-  {
-    "title": "Budget Gaming Setup",
-    "keywords": "budget gaming setup cheap setup affordable desk rgb lights starter setup",
-    "url": "setups.html#budget",
-    "category": "Setups"
-  },
-  {
-    "title": "Budget Desk",
-    "keywords": "budget desk cheap desk starter desk affordable gaming desk",
-    "url": "https://amzn.to/4o1i1O5",
-    "category": "Setups"
-  },
-  {
-    "title": "Budget RGB Strip Lights",
-    "keywords": "budget rgb lights cheap rgb strip lighting affordable rgb",
-    "url": "https://amzn.to/433QHVT",
-    "category": "Setups"
-  }
-
-  {
-    "title": "Best Gaming Desk on Amazon",
-    "keywords": "gaming desk amazon best desk 2026 sturdy desk gamer desk setup",
-    "url": "bestgamingdesk.html",
-    "category": "Desks"
-  },
-  {
-    "title": "Best L-Shaped Desk",
-    "keywords": "l shaped desk corner desk gaming l desk reversible l desk",
-    "url": "bestldesk.html",
-    "category": "Desks"
-  },
-  {
-    "title": "Best Standing Desk",
-    "keywords": "standing desk electric standing desk adjustable height ergonomic desk",
-    "url": "beststandingdesk.html",
-    "category": "Desks"
-  },
-  {
-    "title": "Best Budget Desk",
-    "keywords": "budget desk cheap desk affordable desk starter desk gaming desk",
-    "url": "bestbudgetdesk.html",
-    "category": "Desks"
-  },
-  {
-    "title": "Best Minimalist Desk",
-    "keywords": "minimalist desk clean desk simple desk modern desk white desk",
-    "url": "bestminimalistdesk.html",
-    "category": "Desks"
-  },
-
-  {
-    "title": "Best Overall Gaming Desk",
-    "keywords": "overall gaming desk electric height adjustable desk 55x28 desk motor lift",
-    "url": "https://amzn.to/4nYSSnb",
-    "category": "Desks"
-  },
-  {
-    "title": "Best L-Shaped Corner Gaming Desk",
-    "keywords": "l shaped corner desk gaming desk corner workstation steel frame",
-    "url": "https://amzn.to/4dIbZi0",
-    "category": "Desks"
-  },
-  {
-    "title": "Best Electric Standing Desk",
-    "keywords": "electric standing desk adjustable height motorized desk ergonomic",
-    "url": "https://amzn.to/4wQg6Qm",
-    "category": "Desks"
-  },
-
-  {
-    "title": "Best Overall Desk (Comparison Table)",
-    "keywords": "best overall desk comparison sturdy steel frame multitier desk",
-    "url": "https://amzn.to/4u7oDvE",
-    "category": "Desks"
-  },
-  {
-    "title": "L-Shaped Corner Desk (Comparison Table)",
-    "keywords": "l shaped desk rgb desk tempered glass rgb lighting cable management",
-    "url": "https://amzn.to/432c6ia",
-    "category": "Desks"
-  },
-  {
-    "title": "Electric Standing Desk (Comparison Table)",
-    "keywords": "electric standing desk adjustable height stable base motorized lift",
-    "url": "https://amzn.to/4x07EOw",
-    "category": "Desks"
-  }
-
-  {
-    "title": "Best LED Strip Lights",
-    "keywords": "led strip lights rgb strips under desk glow lighting cheap bright flexible",
-    "url": "bestledstrips.html",
-    "category": "RGB & Decor"
-  },
-  {
-    "title": "Best RGB Wall Panels",
-    "keywords": "rgb wall panels modular lighting decor gaming room panels aesthetic",
-    "url": "bestrgbpanels.html",
-    "category": "RGB & Decor"
-  },
-  {
-    "title": "Best Neon Signs",
-    "keywords": "neon signs rgb neon gaming sign wall decor personality glow",
-    "url": "bestneonsigns.html",
-    "category": "RGB & Decor"
-  },
-  {
-    "title": "Best Nanoleaf Alternatives",
-    "keywords": "nanoleaf alternatives rgb panels budget rgb wall lights modular",
-    "url": "bestnanoleafalternatives.html",
-    "category": "RGB & Decor"
-  },
-  {
-    "title": "Best Wall Lights",
-    "keywords": "wall lights ambient lighting rgb wall decor gaming room lights",
-    "url": "bestwalllights.html",
-    "category": "RGB & Decor"
-  },
-
-  {
-    "title": "RGB LED Strip Lights (Featured)",
-    "keywords": "rgb led strip lights under desk glow monitor backlight room lighting",
-    "url": "https://amzn.to/4dGFuk3",
-    "category": "RGB & Decor"
-  },
-  {
-    "title": "Modular RGB Wall Panels (Featured)",
-    "keywords": "modular rgb wall panels reactive lighting decor gaming room",
-    "url": "https://amzn.to/4x1gzPR",
-    "category": "RGB & Decor"
-  },
-  {
-    "title": "Neon Gaming Sign (Featured)",
-    "keywords": "neon gaming sign rgb neon wall decor personality color glow",
-    "url": "https://amzn.to/4wV23Jj",
-    "category": "RGB & Decor"
-  },
-
-  {
-    "title": "LED Strip Lights (Comparison Table)",
-    "keywords": "led strip lights flexible cheap bright rgb lighting desk glow",
-    "url": "https://amzn.to/4dGGS6h",
-    "category": "RGB & Decor"
-  },
-  {
-    "title": "RGB Wall Panels (Comparison Table)",
-    "keywords": "rgb wall panels modular reactive lighting decor gaming room",
-    "url": "https://amzn.to/4wZtlhB",
-    "category": "RGB & Decor"
-  },
-  {
-    "title": "Neon Signs (Comparison Table)",
-    "keywords": "neon signs rgb neon wall decor custom shapes vibrant glow",
-    "url": "https://amzn.to/4xiBRc3",
-    "category": "RGB & Decor"
-  }
-
-  {
-    "title": "Best Keyboard Pick on Amazon",
-    "keywords": "gaming keyboard mechanical keyboard rgb keyboard hot swap switches amazon pick",
-    "url": "bestkeyboard.html",
-    "category": "Accessories"
-  },
-  {
-    "title": "Best Gaming Mouse Pick on Amazon",
-    "keywords": "gaming mouse fps mouse lightweight mouse wireless mouse amazon pick",
-    "url": "bestgamingmouse.html",
-    "category": "Accessories"
-  },
-  {
-    "title": "Best Headset Pick on Amazon",
-    "keywords": "gaming headset surround sound headset wireless headset amazon pick",
-    "url": "bestheadset.html",
-    "category": "Accessories"
-  },
-  {
-    "title": "Best Extended Mousepad Pick on Amazon",
-    "keywords": "extended mousepad gaming mousepad desk mat large mousepad amazon pick",
-    "url": "bestmousepad.html",
-    "category": "Accessories"
-  },
-  {
-    "title": "Best Microphone Pick on Amazon",
-    "keywords": "gaming microphone streaming mic usb mic podcast mic amazon pick",
-    "url": "bestmicrophone.html",
-    "category": "Accessories"
-  },
-
-  {
-    "title": "Best Overall Gaming Keyboard",
-    "keywords": "gaming keyboard hot swappable rgb premium build mechanical keyboard",
-    "url": "https://amzn.to/4eeZ4Ed",
-    "category": "Accessories"
-  },
-  {
-    "title": "Best FPS Mouse — Lightweight Gaming Mouse",
-    "keywords": "fps mouse lightweight mouse wireless gaming mouse esports mouse",
-    "url": "https://amzn.to/4uJNgzP",
-    "category": "Accessories"
-  },
-  {
-    "title": "Best Headset — Surround Sound Gaming Headset",
-    "keywords": "gaming headset surround sound spatial audio bluetooth headset",
-    "url": "https://amzn.to/4x1Jtza",
-    "category": "Accessories"
-  },
-
-  {
-    "title": "Mechanical Keyboard (Comparison Table)",
-    "keywords": "mechanical keyboard hot swap rgb gasket mount typing gaming",
-    "url": "https://amzn.to/4vlPCVn",
-    "category": "Accessories"
-  },
-  {
-    "title": "Lightweight Mouse (Comparison Table)",
-    "keywords": "lightweight mouse fps mouse low latency flawless tracking 49g",
-    "url": "https://amzn.to/4wXHY54",
-    "category": "Accessories"
-  },
-  {
-    "title": "Gaming Headset (Comparison Table)",
-    "keywords": "gaming headset spatial audio clarity reliable headset",
-    "url": "https://amzn.to/4dGEvjR",
-    "category": "Accessories"
-  }
-
-  {
-    "title": "Best Gaming Mousepad 2026 — SteelSeries QcK Heavy XXL",
-    "keywords": "gaming mousepad steelseries qck heavy xxl best mousepad 2026 control speed thick rubber base extended pad",
-    "url": "bestmousepad.html",
-    "category": "Accessories"
-  },
-  {
-    "title": "SteelSeries QcK Heavy XXL — Amazon Listing",
-    "keywords": "steelseries qck heavy xxl mousepad amazon extended mousepad thick rubber base micro woven cloth",
-    "url": "https://amzn.to/4x0Zpll",
-    "category": "Accessories"
-  },
-  {
-    "title": "Razer Gigantus V2 — Alternative",
-    "keywords": "razer gigantus v2 mousepad gaming mousepad smooth glide thick base control pad",
-    "url": "https://amzn.to/4vmACq7",
-    "category": "Accessories"
-  },
-  {
-    "title": "Artisan Ninja FX Zero Soft — Alternative",
-    "keywords": "artisan ninja fx zero soft mousepad japanese mousepad control pad premium gaming pad",
-    "url": "https://amzn.to/3RGHFvr",
-    "category": "Accessories"
-  },
-  {
-    "title": "Wireless Charging RGB Mousepad — Alternative",
-    "keywords": "rgb mousepad wireless charging qi rgb extended mousepad lighting gaming pad",
-    "url": "https://amzn.to/4u5cDL9",
-    "category": "Accessories"
-  }
-
-  {
-    "title": "Best Gaming Microphone 2026 — Shure SM7B",
-    "keywords": "gaming microphone shure sm7b best mic 2026 streaming mic broadcast mic dynamic mic professional sound",
-    "url": "bestmicrophone.html",
-    "category": "Accessories"
-  },
-  {
-    "title": "Shure SM7B — Amazon Listing",
-    "keywords": "shure sm7b microphone amazon broadcast mic dynamic mic streaming mic professional audio",
-    "url": "https://amzn.to/4dV1c2N",
-    "category": "Accessories"
-  },
-  {
-    "title": "Fifine USB/XLR — Alternative",
-    "keywords": "fifine microphone usb xlr budget mic gaming mic streaming mic",
-    "url": "https://amzn.to/4ufdx81",
-    "category": "Accessories"
-  },
-  {
-    "title": "Elgato Wave:3 — Alternative",
-    "keywords": "elgato wave 3 microphone usb mic streaming mic best usb mic",
-    "url": "https://amzn.to/4dGMOMG",
-    "category": "Accessories"
-  },
-  {
-    "title": "Blue Yeti X — Alternative",
-    "keywords": "blue yeti x microphone usb mic beginner mic rich sound streaming mic",
-    "url": "https://amzn.to/4dJTJVs",
-    "category": "Accessories"
-  }
-
-  {
-    "title": "Best Gaming Keyboard 2026 — AULA F75",
-    "keywords": "gaming keyboard aula f75 best keyboard 2026 tri mode wireless gasket mount thocky sound hot swappable switches",
-    "url": "bestkeyboard.html",
-    "category": "Accessories"
-  },
-  {
-    "title": "AULA F75 — Amazon Listing",
-    "keywords": "aula f75 keyboard amazon tri mode wireless gasket mount mechanical keyboard premium sound",
-    "url": "https://amzn.to/3Q0E8HI",
-    "category": "Accessories"
-  },
-  {
-    "title": "Keychron Q1 Pro — Alternative",
-    "keywords": "keychron q1 pro keyboard aluminum keyboard premium mechanical keyboard wireless",
-    "url": "https://amzn.to/49xHMzw",
-    "category": "Accessories"
-  },
-  {
-    "title": "Keychron K10 HE — Alternative",
-    "keywords": "keychron k10 he hall effect keyboard esports keyboard fast response",
-    "url": "https://amzn.to/4feWRK1",
-    "category": "Accessories"
-  },
-  {
-    "title": "AULA WIN60 HE — Alternative",
-    "keywords": "aula win60 he analog keyboard hall effect gaming keyboard compact 60 percent",
-    "url": "https://amzn.to/4o7cTbo",
-    "category": "Accessories"
-  }
-
-  {
-    "title": "Best Gaming Headset 2026 — Razer BlackShark V2 Pro",
-    "keywords": "gaming headset razer blackshark v2 pro best headset 2026 esports headset wireless hyperspeed titanium drivers competitive audio",
-    "url": "bestheadset.html",
-    "category": "Accessories"
-  },
-  {
-    "title": "Razer BlackShark V2 Pro — Amazon Listing",
-    "keywords": "razer blackshark v2 pro headset amazon wireless hyperspeed titanium drivers esports headset",
-    "url": "https://amzn.to/4uLxOmT",
-    "category": "Accessories"
-  },
-  {
-    "title": "SteelSeries Arctis Nova Pro Wireless — Alternative",
-    "keywords": "steelseries arctis nova pro wireless headset anc premium audio gaming headset",
-    "url": "https://amzn.to/4dRzaoI",
-    "category": "Accessories"
-  },
-  {
-    "title": "Logitech G Pro X Lightspeed — Alternative",
-    "keywords": "logitech g pro x lightspeed headset wireless competitive gaming headset clarity",
-    "url": "https://amzn.to/4nYtQEB",
-    "category": "Accessories"
-  },
-  {
-    "title": "HyperX Cloud Alpha Wireless — Alternative",
-    "keywords": "hyperx cloud alpha wireless headset long battery life 300 hours gaming headset",
-    "url": "https://amzn.to/4dJUfmm",
-    "category": "Accessories"
-  }
-
-  {
-    "title": "Best Gaming Mouse 2026 — Logitech G Pro X Superlight 2",
-    "keywords": "gaming mouse logitech g pro x superlight 2 best mouse 2026 ultralight 40g hero 2 sensor wireless fps esports",
-    "url": "bestgamingmouse.html",
-    "category": "Accessories"
-  },
-  {
-    "title": "Logitech G Pro X Superlight 2 — Amazon Listing",
-    "keywords": "logitech g pro x superlight 2 mouse amazon ultralight 40g hero 2 sensor wireless fps mouse",
-    "url": "https://amzn.to/49T9Wp1",
-    "category": "Accessories"
-  },
-  {
-    "title": "Razer Viper V4 Pro — Alternative",
-    "keywords": "razer viper v4 pro gaming mouse claw grip esports mouse lightweight",
-    "url": "https://amzn.to/4x3RXG0",
-    "category": "Accessories"
-  },
-  {
-    "title": "Finalmouse Ultralight 2 — Alternative",
-    "keywords": "finalmouse ultralight 2 gaming mouse lightest mouse ultralight fps",
-    "url": "https://amzn.to/4uP7eZW",
-    "category": "Accessories"
-  },
-  {
-    "title": "Glorious Model O 2 Wireless — Alternative",
-    "keywords": "glorious model o 2 wireless gaming mouse ultralight best value fps",
-    "url": "https://amzn.to/4dJ88RN",
-    "category": "Accessories"
-  }
-]
-
+  "setups": [
+    {
+      "title": "Budget Desk",
+      "keywords": "budget desk cheap desk starter desk affordable gaming desk",
+      "url": "https://amzn.to/4o1i1O5"
+    },
+    {
+      "title": "Budget Gaming Setup",
+      "keywords": "budget gaming
 
 
