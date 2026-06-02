@@ -169,6 +169,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   if (q && input) {
     input.value = q;
+    input.focus();
     setTimeout(handleSearch, 150); // small delay ensures data is ready
   }
 });
