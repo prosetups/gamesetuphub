@@ -160,17 +160,23 @@ document.addEventListener("keydown", (e) => {
    LOAD QUERY FROM URL
 ============================ */
 document.addEventListener("DOMContentLoaded", async () => {
-  await loadSearchData(); // ensure JSON is fully loaded
+  // 1. Load JSON fully
+  await loadSearchData();
 
+  // 2. Read URL query
   const params = new URLSearchParams(window.location.search);
   const q = params.get("s") || params.get("q");
 
+  // 3. Get search input
   const input = document.getElementById("searchInput");
 
   if (q && input) {
     input.value = q;
-    input.focus();
-    setTimeout(handleSearch, 150); // small delay ensures data is ready
+
+    // 4. Delay ensures DOM + JSON are ready
+    setTimeout(() => {
+      handleSearch();
+    }, 200);
   }
 });
 
