@@ -1143,11 +1143,14 @@ h2 {
   width: 100%;
   background: #0e0e1a;
   border: 1px solid #2a2a3d;
-  border-radius: 6px;
+  border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.4);
   z-index: 1000;
   max-height: 300px;
   overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 6px 0;
 }
 
 .search-result {
@@ -1155,6 +1158,7 @@ h2 {
   padding: 10px 14px;
   color: #fff;
   text-decoration: none;
+  transition: background 0.2s ease;
 }
 
 .search-result:hover {
