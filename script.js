@@ -144,19 +144,6 @@ function handleSearch() {
 }
 
 /* ============================
-   ENTER KEY TRIGGERS SEARCH
-============================ */
-document.addEventListener("keydown", (e) => {
-  const input = document.getElementById("searchInput");
-  if (!input) return;
-
-  if (e.key === "Enter") {
-    e.preventDefault();
-    handleSearch();
-  }
-});
-
-/* ============================
    LOAD QUERY FROM URL
 ============================ */
 document.addEventListener("DOMContentLoaded", async () => {
