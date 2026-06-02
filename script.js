@@ -156,5 +156,17 @@ document.getElementById("searchInput").addEventListener("input", handleSearch);
 
 loadSearchData();
 
+/* SEARCH PAGE — READ URL QUERY ON LOAD */
+document.addEventListener("DOMContentLoaded", () => {
+  const params = new URLSearchParams(window.location.search);
+  const q = params.get("q");
+
+  const input = document.getElementById("searchInput");
+
+  if (q && input) {
+    input.value = q;
+    handleSearch();
+  }
+});
 
 }
