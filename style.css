@@ -1150,6 +1150,7 @@ h2 {
   max-height: 300px;
   overflow-y: auto;
   padding: 8px 0;
+  box-shadow: 0 0 12px rgba(180, 0, 255, 0.4);
 }
 
 /* Each result box */
