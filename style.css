@@ -1132,6 +1132,40 @@ h2 {
   color: #888;
 }
 
+.search-bar {
+  position: relative;
+}
+
+.search-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background: #0e0e1a;
+  border: 1px solid #2a2a3d;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+  z-index: 1000;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.search-result {
+  display: block;
+  padding: 10px 14px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.search-result:hover {
+  background: #1a1a2f;
+}
+
+.search-input {
+  margin-bottom: 0;
+}
+
+
 /* Mobile Styles */
 @media (max-width: 500px) {
 
