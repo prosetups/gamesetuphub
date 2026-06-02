@@ -79,5 +79,88 @@
     "keywords": "setups inspiration gaming rooms",
     "url": "setups.html"
   }
+
+  {
+    "title": "Budget Gaming PC",
+    "keywords": "budget cheap starter 1080p entry level low cost affordable beginner first pc esports fortnite valorant low end build",
+    "url": "builds/budget.html"
+  },
+  {
+    "title": "Mid‑Range RGB Setup",
+    "keywords": "rgb midrange 1440p colorful lighting led neon ambient aesthetic setup desk lights gaming room",
+    "url": "builds/midrange.html"
+  },
+  {
+    "title": "High‑End 4090 Build",
+    "keywords": "4090 highend 4k ultra max settings flagship nvidia rtx4090 powerhouse extreme gaming top tier high fps",
+    "url": "builds/highend.html"
+  },
+  {
+    "title": "Entry-Level Build — AMD",
+    "keywords": "entry level amd budget 5600g integrated graphics cheap starter apu beginner build esports light gaming low cost",
+    "url": "pcs.html#entry-amd"
+  },
+  {
+    "title": "Entry-Level Build — Intel",
+    "keywords": "entry level intel budget i3 13100f rx6600 starter 1080p cheap gaming beginner build low cost esports",
+    "url": "pcs.html#entry-intel"
+  },
+  {
+    "title": "Mid-Range Build — AMD",
+    "keywords": "mid range amd 7600 rtx5060 1440p 2k gaming mid build fps smooth performance upgrade sweet spot",
+    "url": "pcs.html#mid-amd"
+  },
+  {
+    "title": "Mid-Range Build — Intel",
+    "keywords": "mid range intel 14400f rtx5060ti 1440p 2k gaming mid build content creation editing streaming",
+    "url": "pcs.html#mid-intel"
+  },
+  {
+    "title": "High-End Build — AMD",
+    "keywords": "high end amd 7800x3d rtx4080super 4k ultra max settings streaming high fps enthusiast gaming",
+    "url": "pcs.html#high-amd"
+  },
+  {
+    "title": "High-End Build — Intel",
+    "keywords": "high end intel 14700k rtx5080 4k ultra productivity workstation creator editing rendering",
+    "url": "pcs.html#high-intel"
+  },
+  {
+    "title": "Enthusiast Build — AMD",
+    "keywords": "enthusiast amd 9800x3d rtx5080 extreme gaming top tier fps monster build premium setup",
+    "url": "pcs.html#enthusiast-amd"
+  },
+  {
+    "title": "Enthusiast Build — Intel",
+    "keywords": "enthusiast intel 14900k rtx4090 ultimate workstation gaming beast high performance creator rig",
+    "url": "pcs.html#enthusiast-intel"
+  },
+  {
+    "title": "Gaming Desks",
+    "keywords": "desks desk gaming desk setups workspace table standing desk l shaped desk",
+    "url": "desks.html"
+  },
+  {
+    "title": "Wall Mounts",
+    "keywords": "wall mounts monitor mount arm vesa bracket floating monitor setup clean desk",
+    "url": "wallmounts.html"
+  },
+  {
+    "title": "RGB & Decor",
+    "keywords": "rgb decor lighting led strips neon ambient lights room aesthetic gaming room glow",
+    "url": "decor.html"
+  },
+  {
+    "title": "Gaming Accessories",
+    "keywords": "accessories mouse keyboard headset mic webcam peripherals gaming gear",
+    "url": "accessories.html"
+  },
+  {
+    "title": "Gaming Setups",
+    "keywords": "setups inspiration gaming rooms battlestation ideas desk layout rgb setup tour",
+    "url": "setups.html"
+  }
+]
+
 ]
 
