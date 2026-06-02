@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Budget Gaming PC",
+    "keywords": "budget cheap starter 1080p entry level",
+    "url": "builds/budget.html"
+  },
+  {
+    "title": "Mid‑Range RGB Setup",
+    "keywords": "rgb midrange 1440p colorful",
+    "url": "builds/midrange.html"
+  },
+  {
+    "title": "High‑End 4090 Build",
+    "keywords": "4090 highend 4k ultra max settings",
+    "url": "builds/highend.html"
+  }
+]
