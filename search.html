@@ -48,15 +48,19 @@
     <div class="section-divider"></div>
 
   <div class="search-container">
+  <form id="searchForm">
     <input 
       type="text" 
       id="searchInput" 
       class="search-input" 
+      name="q"
       placeholder="Search desks, PCs, accessories, RGB, setups..."
     />
+  </form>
 
-    <div id="resultsContainer"></div>
-  </div>
+  <div id="resultsContainer"></div>
+</div>
+
 
   </main>
 
@@ -97,6 +101,26 @@
     });
   }
 </script>
+
+<script>
+  const form = document.getElementById("searchForm");
+  const input = document.getElementById("searchInput");
+
+  // Make Enter run the search
+  form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    handleSearch();
+  });
+
+  // Make typing + Enter work even without clicking
+  input.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") {
+      e.preventDefault();
+      handleSearch();
+    }
+  });
+</script>
+
 
 
 </body>
