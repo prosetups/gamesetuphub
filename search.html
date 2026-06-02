@@ -85,6 +85,20 @@
 });
 </script>
 
+<script>
+  const searchInput = document.getElementById("searchInput");
+
+  if (searchInput) {
+    searchInput.addEventListener("keydown", (e) => {
+      if (e.key === "Enter") {
+        e.preventDefault();
+        handleSearch();
+      }
+    });
+  }
+</script>
+
+
 </body>
 </html>
 
