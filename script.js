@@ -159,16 +159,17 @@ document.addEventListener("keydown", (e) => {
 /* ============================
    LOAD QUERY FROM URL
 ============================ */
-document.addEventListener("DOMContentLoaded", () => {
-  loadSearchData().then(() => {
-    const params = new URLSearchParams(window.location.search);
-    const q = params.get("s") || params.get("q");
+document.addEventListener("DOMContentLoaded", async () => {
+  await loadSearchData(); // ensure JSON is fully loaded
 
-    const input = document.getElementById("searchInput");
+  const params = new URLSearchParams(window.location.search);
+  const q = params.get("s") || params.get("q");
 
-    if (q && input) {
-      input.value = q;
-      handleSearch();
-    }
-  });
+  const input = document.getElementById("searchInput");
+
+  if (q && input) {
+    input.value = q;
+    setTimeout(handleSearch, 150); // small delay ensures data is ready
+  }
 });
+
