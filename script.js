@@ -49,7 +49,8 @@ async function loadSearchData() {
    LIVE DROPDOWN SEARCH
 ============================ */
 const searchInput = document.getElementById("searchInput");
-const resultsBox = document.getElementById("searchResults");
+const resultsBox = document.getElementById("searchDropdown");
+
 
 if (searchInput && resultsBox) {
   searchInput.addEventListener("input", async () => {
