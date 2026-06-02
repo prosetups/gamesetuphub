@@ -51,5 +51,37 @@ function displayResults(results, query) {
     .join("");
 }
 
+const searchInput = document.getElementById("searchInput");
+const resultsBox = document.getElementById("searchResults");
+
+async function loadSearchData() {
+  const response = await fetch("search-data.json");
+  return await response.json();
+}
+
+searchInput.addEventListener("input", async () => {
+  const query = searchInput.value.toLowerCase().trim();
+  const data = await loadSearchData();
+
+  if (query.length === 0) {
+    resultsBox.innerHTML = "";
+    return;
+  }
+
+  const results = data.filter(item =>
+    item.title.toLowerCase().includes(query) ||
+    item.keywords.toLowerCase().includes(query)
+  );
+
+  resultsBox.innerHTML = results
+    .map(item => `<a href="${item.url}" class="search-result">${item.title}</a>`)
+    .join("");
+
+  if (results.length === 0) {
+    resultsBox.innerHTML = `<p class="no-results">No results found.</p>`;
+  }
+});
+
+
 
 
