@@ -86,4 +86,75 @@ if (searchInput && resultsBox) {
     }
   });
 
+  let searchData = [];
+
+async function loadSearchData() {
+  const response = await fetch("search-data.json");
+  searchData = await response.json();
+}
+
+function groupResults(results) {
+  const groups = {};
+
+  results.forEach(item => {
+    if (!groups[item.category]) {
+      groups[item.category] = [];
+    }
+    groups[item.category].push(item);
+  });
+
+  return groups;
+}
+
+function renderResults(results) {
+  const container = document.getElementById("resultsContainer");
+  container.innerHTML = "";
+
+  if (results.length === 0) {
+    container.innerHTML = `<p class="no-results">No results found.</p>`;
+    return;
+  }
+
+  const grouped = groupResults(results);
+
+  for (const category in grouped) {
+    const block = document.createElement("div");
+    block.classList.add("category-block");
+
+    block.innerHTML = `
+      <h3 class="category-title">${category}</h3>
+      <ul class="result-list">
+        ${grouped[category]
+          .map(
+            item => `
+          <li class="result-item">
+            <a href="${item.url}">${item.title}</a>
+            <span class="result-category">(${item.category})</span>
+          </li>
+        `
+          )
+          .join("")}
+      </ul>
+    `;
+
+    container.appendChild(block);
+  }
+}
+
+function handleSearch() {
+  const query = document.getElementById("searchInput").value.toLowerCase();
+
+  const filtered = searchData.filter(item =>
+    item.title.toLowerCase().includes(query) ||
+    item.keywords.toLowerCase().includes(query)
+  );
+
+  renderResults(filtered);
+}
+
+document.getElementById("searchInput").addEventListener("input", handleSearch);
+
+loadSearchData();
+
+
 }
