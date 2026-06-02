@@ -74,6 +74,16 @@
 
   <!-- SCRIPT -->
   <script src="script.js"></script>
+  <script>window.addEventListener("DOMContentLoaded", () => {
+  const params = new URLSearchParams(window.location.search);
+  const query = params.get("q");
+
+  if (query) {
+    document.getElementById("searchInput").value = query;
+    handleSearch();
+  }
+});
+</script>
 
 </body>
 </html>
