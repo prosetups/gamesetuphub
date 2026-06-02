@@ -1016,6 +1016,26 @@ h2 {
     text-align: center;
 }
 
+.build-table a {
+  color: #7dd3fc; /* base link color */
+  transition: color 0.25s ease, text-shadow 0.25s ease;
+}
+
+.build-table a:hover {
+  color: #5ee8ff; /* brighter cyan */
+  text-shadow:
+    0 0 6px #5ee8ff,
+    0 0 12px #5ee8ff,
+    0 0 18px #5ee8ff; /* stacked glow for intensity */
+  transition: color 0.25s ease, text-shadow 0.25s ease;
+}
+
+
+.build-table tr:hover {
+  background-color: rgba(56, 189, 248, 0.08); /* faint row highlight */
+  transition: background-color 0.3s ease;
+}
+
 
 .price {
     color: #8affc1;
