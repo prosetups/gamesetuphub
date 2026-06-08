@@ -1073,6 +1073,95 @@ h2 {
     100% { background-position: 300% 0%; }
 }
 
+/* Dropdown container */
+.dropdown {
+  position: relative;
+}
+
+/* Dropdown toggle button */
+.dropdown-toggle {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 10px 15px;
+}
+
+/* Dropdown menu styled to match PC Builds theme */
+.dropdown-menu {
+  background: linear-gradient(180deg, #131325, #1a1a2d);
+  border: 1px solid rgba(120, 120, 255, 0.25);
+  box-shadow: 0 0 20px rgba(90, 124, 255, 0.25),
+              0 0 12px rgba(255, 79, 216, 0.15);
+  padding: 10px 0;
+  border-radius: 8px;
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 200px;
+  z-index: 9999;
+}
+
+/* Dropdown links */
+.dropdown-menu a {
+  display: block;
+  padding: 12px 18px;
+  color: #e6e6e6;
+  text-decoration: none;
+  font-size: 16px;
+  transition: 0.2s ease;
+}
+
+/* Hover effect with neon glow */
+.dropdown-menu a:hover {
+  background: rgba(90, 124, 255, 0.15);
+  color: white;
+  text-shadow: 0 0 8px #3a7bff;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center; /* keeps all items vertically aligned */
+  /* optional: adjust spacing between links */
+}
+
+.nav-link,
+.dropdown-toggle {
+  display: inline-flex;
+  align-items: center;
+  height: 100%; /* ensures consistent vertical alignment */
+  line-height: 1; /* prevents text from sitting too high or low */
+}
+
+.dropdown-toggle {
+  padding-top: 12px; /* adjust until it visually matches other links */
+}
+
+.section-title {
+  color: white; 
+  font-size: 3rem;
+}
+
+.subtitle {
+  color: white; 
+}
+
+/* Mobile behavior */
+@media (max-width: 768px) {
+  .dropdown-menu {
+    position: static;
+    border: none;
+    background: none;
+    padding-left: 20px;
+  }
+}
 
 
 /* Mobile Styles */
